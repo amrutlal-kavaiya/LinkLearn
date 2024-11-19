@@ -31,11 +31,13 @@ def generate_questions(text):
     return response
 
 def generate_questions_from_raw_data(raw_url_data):
+    all_questions = []
     for data in raw_url_data:
         print("Generating questions for data")
         print(data)
         questions = generate_questions(data)
         print(questions)
-        with open('questions.json', 'w') as f:
-            json.dump(questions, f)
+        all_questions.append(questions)
+    with open('questions.json', 'w') as f:
+        json.dump(all_questions, f)
 generate_questions_from_raw_data(raw_url_data)
