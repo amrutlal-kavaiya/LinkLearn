@@ -1,0 +1,97 @@
+[
+  {
+    "question": "What is the primary function of GitHub Copilot's code completion feature?",
+    "type": "Recall/Knowledge",
+    "options": {
+      "A": "To provide AI-generated code suggestions in supported IDEs",
+      "B": "To manage user access and policies",
+      "C": "To generate pull request summaries",
+      "D": "To create and manage knowledge bases"
+    },
+    "correctAnswer": "A",
+    "explanations": {
+      "A": "The code completion feature is designed to provide AI-generated code suggestions in supported IDEs, enhancing coding efficiency.",
+      "B": "This is incorrect as managing user access and policies is a feature for administrators, not related to code completion.",
+      "C": "Generating pull request summaries is a separate feature of GitHub Copilot, not related to code completion.",
+      "D": "Creating and managing knowledge bases is a feature for Copilot Enterprise, unrelated to code completion."
+    },
+    "correctExplanation": "Option A",
+    "topic": "Technology"
+  },
+  {
+    "question": "How does GitHub Copilot assist in pull request management?",
+    "type": "Comprehension",
+    "options": {
+      "A": "By providing a chat interface for coding questions",
+      "B": "By generating AI-based summaries of pull requests",
+      "C": "By managing access to Copilot features",
+      "D": "By excluding certain files from Copilot"
+    },
+    "correctAnswer": "B",
+    "explanations": {
+      "A": "While Copilot Chat provides a platform for coding questions, it is not directly related to pull request management.",
+      "B": "Copilot assists in pull request management by generating AI-based summaries, helping reviewers focus on key changes.",
+      "C": "Managing access is an administrative feature, not directly related to pull request management.",
+      "D": "Excluding files is a feature to manage content availability, not related to pull request management."
+    },
+    "correctExplanation": "Option B",
+    "topic": "Technology"
+  },
+  {
+    "question": "In what ways can GitHub Copilot be integrated into different environments?",
+    "type": "Application",
+    "options": {
+      "A": "Through IDEs, CLI, and GitHub Mobile",
+      "B": "Only through Visual Studio Code",
+      "C": "Exclusively in Windows Terminal",
+      "D": "Solely in GitHub Enterprise"
+    },
+    "correctAnswer": "A",
+    "explanations": {
+      "A": "GitHub Copilot can be integrated into various environments including IDEs, CLI, and GitHub Mobile, offering flexibility.",
+      "B": "While Visual Studio Code is a supported IDE, Copilot's integration is not limited to it.",
+      "C": "Windows Terminal is one of the environments, but not the only one where Copilot can be used.",
+      "D": "GitHub Enterprise offers additional features, but Copilot is not limited to this environment."
+    },
+    "correctExplanation": "Option A",
+    "topic": "Technology"
+  },
+  {
+    "question": "Analyze the benefits of using GitHub Copilot Extensions.",
+    "type": "Analysis",
+    "options": {
+      "A": "They allow integration of external tools into Copilot Chat",
+      "B": "They restrict Copilot's functionality to specific IDEs",
+      "C": "They provide exclusive access to enterprise features",
+      "D": "They limit the use of AI models"
+    },
+    "correctAnswer": "A",
+    "explanations": {
+      "A": "GitHub Copilot Extensions enable the integration of external tools into Copilot Chat, enhancing its functionality.",
+      "B": "This is incorrect as Extensions do not restrict functionality to specific IDEs.",
+      "C": "Extensions are not about providing exclusive enterprise features but about enhancing Copilot Chat.",
+      "D": "Extensions do not limit AI models; they enhance the tool's capabilities."
+    },
+    "correctExplanation": "Option A",
+    "topic": "Technology"
+  },
+  {
+    "question": "Evaluate the role of policy management in GitHub Copilot for administrators.",
+    "type": "Evaluation",
+    "options": {
+      "A": "It helps manage user access and feature availability",
+      "B": "It provides AI-generated code suggestions",
+      "C": "It assists in writing pull request descriptions",
+      "D": "It offers a chat interface for coding questions"
+    },
+    "correctAnswer": "A",
+    "explanations": {
+      "A": "Policy management is crucial for administrators to control user access and feature availability within an organization.",
+      "B": "This is incorrect as AI-generated code suggestions are a feature of Copilot, not related to policy management.",
+      "C": "Writing pull request descriptions is a feature of text completion, not policy management.",
+      "D": "The chat interface is a separate feature and not related to policy management."
+    },
+    "correctExplanation": "Option A",
+    "topic": "Technology"
+  }
+]

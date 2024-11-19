@@ -21,7 +21,21 @@ def read_and_process_csv(file_path):
             if row:
                 process_url(row[0])
                 print(row)
-print(type(raw_url_data))
-print("-----------------")
-print("Raw URL Data")
 read_and_process_csv('data.csv')
+
+import answer_gen 
+import json
+
+def generate_questions(text):
+    response = answer_gen.generate_questions(text)
+    return response
+
+def generate_questions_from_raw_data(raw_url_data):
+    for data in raw_url_data:
+        print("Generating questions for data")
+        print(data)
+        questions = generate_questions(data)
+        print(questions)
+        with open('questions.json', 'w') as f:
+            json.dump(questions, f)
+generate_questions_from_raw_data(raw_url_data)
