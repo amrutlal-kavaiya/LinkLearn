@@ -128,3 +128,12 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Python bytecode cache directories
+__pycache__/
+
+# Compiled Python files
+*.py[cod]
+
+# Optimized Python files
+*.pyo
